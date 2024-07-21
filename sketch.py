@@ -4,7 +4,7 @@ import numpy as np
 import time
 from PIL import Image
 def photo():
-    camera = cv2.VideoCapture(0 to 1 or 2)
+    camera = cv2.VideoCapture(0)
     done=st.button('Capture')
     while not done:
         ret, image = camera.read()
